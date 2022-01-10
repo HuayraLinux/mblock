@@ -1,0 +1,37 @@
+#! /bin/sh
+
+set -e
+
+# The following only on a new install
+if [ "$1" = "configure" ]; then
+
+  # The following only on a new install
+  if [ "$2" = "" ]; then
+  fi
+
+fi
+
+# POSTINSTALL Original (si los sudo)
+echo '++++created link++++';
+rm -rf /usr/bin/ideserverplus;
+ln -sf /opt/makeblock/ideserverplus/ide_server_plus.sh /usr/bin/ideserverplus;
+isExist=`whereis systemctl`;
+if [ ${#isExist} -gt 10 ]
+then
+    systemctl enable ideserverplus.service
+    systemctl start ideserverplus.service
+else
+    # add boot up 
+    cd /etc/init.d
+    update-rc.d ideserverplus defaults 80
+    /usr/sbin/service ideserverplus start
+fi
+update-mime-database /usr/share/mime
+xdg-icon-resource install --context mimetypes --size 32 /usr/share/icons/mBlock/32x32.png application-scratch
+
+echo '++++add execute&&write permission++++';
+chmod -R 0777 /opt/makeblock/mBlock/resources/tools;
+chmod -R 0777 /opt/makeblock/mBlock/resources/web;
+
+exit 0
+#DEBHELPER#

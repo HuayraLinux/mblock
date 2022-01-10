@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "intel-hex@^0.1.1",
+      "E:\\wamp\\www\\education.makeblock.com\\web"
+    ]
+  ],
+  "_from": "intel-hex@>=0.1.1 <0.2.0",
+  "_id": "intel-hex@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/intel-hex",
+  "_npmUser": {
+    "email": "miner.blake@gmail.com",
+    "name": "bminer"
+  },
+  "_npmVersion": "1.2.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "intel-hex",
+    "raw": "intel-hex@^0.1.1",
+    "rawSpec": "^0.1.1",
+    "scope": null,
+    "spec": ">=0.1.1 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/intel-hex/-/intel-hex-0.1.1.tgz",
+  "_shasum": "825445dbabdab8d7988c6dfdb470dfbbb19fd494",
+  "_shrinkwrap": null,
+  "_spec": "intel-hex@^0.1.1",
+  "_where": "E:\\wamp\\www\\education.makeblock.com\\web",
+  "author": {
+    "email": "miner.blake@gmail.com",
+    "name": "Blake Miner"
+  },
+  "bugs": {
+    "url": "https://github.com/bminer/intel-hex.js/issues"
+  },
+  "dependencies": {},
+  "description": "A JavaScript parser/writer for Intel HEX file format.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "825445dbabdab8d7988c6dfdb470dfbbb19fd494",
+    "tarball": "https://registry.npmjs.org/intel-hex/-/intel-hex-0.1.1.tgz"
+  },
+  "homepage": "https://github.com/bminer/intel-hex.js#readme",
+  "keywords": [
+    "intel",
+    "hex",
+    "parser",
+    "reader",
+    "writer"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "miner.blake@gmail.com",
+      "name": "bminer"
+    }
+  ],
+  "name": "intel-hex",
+  "optionalDependencies": {},
+  "readme": "intel-hex.js\r\n============\r\n\r\nA parser/writer for Intel HEX file format.\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bminer/intel-hex.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.1"
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=makeblock ide service
+#Requires=After=mysql.service       # Requires the mysql service to run first
+
+[Service]
+ExecStart=/usr/bin/ideserverplus
+Restart=always
+RestartSec=10                       # Restart service after 10 seconds if node service crashes
+StandardOutput=/dev/null            # Output to syslog
+StandardError=syslog                # Output to syslog
+SyslogIdentifier=ideserverplus
+#User=<alternate user>
+#Group=<alternate group>
+Environment=
+
+[Install]
+WantedBy=multi-user.target

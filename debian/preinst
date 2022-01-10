@@ -1,0 +1,14 @@
+#!/bin/sh
+isExist=`whereis systemctl`;
+if [ ${#isExist} -gt 10 ]; then
+    systemctl disable ideserverplus.service
+    systemctl stop ideserverplus.service
+else
+    cd '/etc/init.d';
+    sudo  update-rc.d -f ideserverplus remove;
+fi
+
+echo '++++delete files++++';
+sudo rm -rf /opt/makeblock;
+
+echo '++++finished preinst++++';

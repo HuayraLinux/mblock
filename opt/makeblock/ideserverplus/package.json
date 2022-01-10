@@ -1,0 +1,25 @@
+{
+  "name": "robot-comm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bluetooth-serial-port": "^2.1.1",
+    "bowser": "^1.6.1",
+    "lodash": "^4.17.4",
+    "node-hid": "^0.5.4",
+    "serialport": "^4.0.7",
+    "socket.io": "^1.7.3",
+    "stk500": "^1.0.3",
+    "stk500-v2": "^1.0.2",
+    "sudo-prompt": "^6.2.1",
+    "ws": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
