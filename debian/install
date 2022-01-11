@@ -1,3 +1,11 @@
-etc /
-usr /
-opt /
+opt/makeblock/mBlock/libffmpeg.so   opt/makeblock/mBlock/
+opt/makeblock/mBlock/libnode.so   opt/makeblock/mBlock/
+opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/hardware/tools/avr/libexec/gcc/avr/4.8.1/liblto_plugin.so   opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/hardware/tools/avr/libexec/gcc/avr/4.8.1/
+opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/java/lib/amd64/*.so   opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/java/lib/amd64/
+opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/java/lib/amd64/jli/*.so   opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/java/lib/amd64/jli/
+opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/java/lib/amd64/server/*.so   opt/makeblock/mBlock/resources/tools/arduino-server/tools/arduino/java/lib/amd64/server/
+opt/makeblock/mBlock/resources/plugins/libpepflashplayer.so   opt/makeblock/mBlock/resources/plugins/
+
+etc/* etc/
+usr/* usr/
+opt/* opt/
