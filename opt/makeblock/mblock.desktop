@@ -1,4 +1,3 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=mBlock
 Comment=mblock 4.0
@@ -6,3 +5,4 @@ Exec="/opt/makeblock/mBlock/mblock"
 Terminal=false
 Type=Application
 Icon=/usr/share/icons/mBlock/48x48.png
+Categories=Development;
