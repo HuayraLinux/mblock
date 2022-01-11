@@ -1,0 +1,1 @@
+ /etc/udev/rules.d/10-mblockhid.rules opt/makeblock/ideserverplus/tools/10-mblockhid.rules 

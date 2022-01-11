@@ -7,7 +7,7 @@ if [ "$1" = "configure" ]; then
   echo "Configure"
   # The following only on a new install
   if [ "$2" = "" ]; then
-    echo " first time install"
+    echo "First time install"
   fi
 
 fi
