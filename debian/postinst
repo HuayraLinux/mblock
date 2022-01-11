@@ -4,15 +4,15 @@ set -e
 
 # The following only on a new install
 if [ "$1" = "configure" ]; then
-
+  echo "Configure"
   # The following only on a new install
   if [ "$2" = "" ]; then
+    echo " first time install"
   fi
 
 fi
 
 # POSTINSTALL Original (si los sudo)
-echo '++++created link++++';
 rm -rf /usr/bin/ideserverplus;
 ln -sf /opt/makeblock/ideserverplus/ide_server_plus.sh /usr/bin/ideserverplus;
 isExist=`whereis systemctl`;
@@ -29,7 +29,6 @@ fi
 update-mime-database /usr/share/mime
 xdg-icon-resource install --context mimetypes --size 32 /usr/share/icons/mBlock/32x32.png application-scratch
 
-echo '++++add execute&&write permission++++';
 chmod -R 0777 /opt/makeblock/mBlock/resources/tools;
 chmod -R 0777 /opt/makeblock/mBlock/resources/web;
 
