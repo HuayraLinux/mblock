@@ -1,3 +1,9 @@
+mblock (4.0.4-2) unstable; urgency=medium
+
+  * conflicts y replaces de ideservice (para la imagen de nets)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 12 Jan 2022 14:04:21 -0300
+
 mblock (4.0.4-1) unstable; urgency=medium
 
   * Paquete inicial.

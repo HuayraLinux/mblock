@@ -1,5 +1,5 @@
 Source: mblock
-Section: utils
+Section: devel
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 10.0.0), devscripts
@@ -9,8 +9,10 @@ Vcs-Git: https://github.com/HuayraLinux/mblock.git
 Vcs-Browser: https://github.com/HuayraLinux/mblock
 
 Package: mblock
-Architecture: all
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends},
+Conflicts: ideservice (<= 4.0.4)
+Replaces: ideservice (<= 4.0.4)
 Description: mBlock - an Scratch branch for Arduino and Robots.
  mBlock  es un entorno grfico de programacin basado en el editor 
  Scratch 2.0 para que escuelas y centros de formacin pueda introducir
