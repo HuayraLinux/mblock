@@ -31,6 +31,6 @@ xdg-icon-resource install --context mimetypes --size 32 /usr/share/icons/mBlock/
 
 chmod -R 0777 /opt/makeblock/mBlock/resources/tools;
 chmod -R 0777 /opt/makeblock/mBlock/resources/web;
-
+mkdir -p /opt/makeblock/mBlock/resources/ext/libraries 
 exit 0
 #DEBHELPER#
