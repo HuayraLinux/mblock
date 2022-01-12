@@ -1,5 +1,12 @@
 Repack del paquete original descargado del sitio makeblock.es para 
 corregir algunos archivos que no estan correctos.
 
+Es el ejemplo de como no distribuir una aplicacion.
+Adentro tiene debs, el sdk de arduino, compiladores..etc..
+El lintian llora.
+
+:(
+
+
 
 
